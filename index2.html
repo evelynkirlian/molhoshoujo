@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	<meta charset="utf-8">
+
+	<title>Molho Soujo Tour</title>
+</head>
+
+<body>
+	<div class="cabecalho">
+
+		<div class="logomini">
+			<a href="#home"><img src="logomini.png" id="logomini" alt="logomini" width="118" height="68"></a>
+		</div>
+
+		<div class="menu">
+			<nav>
+				<ul>
+					<li><a href="#confirmacao">CONFIRMAÇÃO</a></li>
+					<li><a href="#sobre">SOBRE</a></li>
+					<li><a href="#quemsomos">QUEM SOMOS</a></li>
+					<li><a href="#lugar">LUGAR</a></li>
+					<li><a href="#contato">CONTATO</a></li>
+				</ul>
+			</nav>
+		</div>	
+
+	</div>
+
+	<div class="conteudo">
+		<div class="primeiro" id="home">
+			<div class="tour">
+
+				<div class="logoshoujo">
+					<img src="logoshoujo.png" id="logoshoujo" alt="logoshoujo">
+				</div>
+
+				
+				<div class="btnconfirmacao"><a href="#confirmacao" id="btnconfirmacao">CONFIRMAÇÃO</a>
+				</div>
+				
+
+			</div>
+		</div>
+
+		<div class="segundo">
+			<div class="sobre"> 
+				<div class="box2" id= "sobre2">Sobre</div>
+
+				<div class="box" id="box">Oi! Somos o Molho Shoujo, um podcast de debates ácidos a respeito do mundo shoujo/josei que tanto amamos e odiamos. A cada episódio, iremos problematizar questões sociais e culturais como romantização do estupro, imposição de gênero e protagonismo feminino embutidos em alguma obra. Contamos com sua participação para enriquecer o debate. E aí, servidos?</div>
+
+			</div>
+		</div>
+
+		<div class="terceiro" id="quemsomos">
+			<div class="containerquemsomos">
+				<div class="quemsomos">Quem Somos</div>
+				<div class="galeria">
+					<nav id="bolinhas">
+						<ul>
+							<li><img src="foto1.png" alt="foto1" style="width: 150px" class="bolinhas"></li>
+							<li><img src="foto2.png" alt="foto1" style="width: 150px" class="bolinhas"></li>
+							<li><img src="foto3.png" alt="foto1" style="width: 150px" class="bolinhas"></li>
+							<li><img src="foto4.png" alt="foto1" style="width: 150px" class="bolinhas"></li>
+							<li><img src="foto5.png" alt="foto1" style="width: 150px" class="bolinhas"></li>
+							<li><img src="foto7.png" alt="foto1" style="width: 150px" class="bolinhas"></li>
+							<li><img src="foto6.png" alt="foto1" style="width: 150px" class="bolinhas"></li>
+						</ul>
+					</nav>
+
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="quarto" id="confirmacao">
+			<div class="confirmacao">
+				<div class="title">Confirmação de Inscrição</div>
+
+				<form action="mailto:evelyn@evelynkirlian.com.br" method="post" enctype="text/plain">
+				    <label for="fname">Nome</label>
+				    <input type="text" id="fname" name="firstname" placeholder="Digite seu nome">
+
+				    <label for="lname">Sobrenome</label>
+				    <input type="text" id="lname" name="lastname" placeholder="Digite seu sobrenome">
+
+				    <label for="idade">Idade</label>
+		    		<input type="text" id="idade" name="idade" placeholder="Idade">
+
+				    <label for="email">Email</label>
+				    <input type="text" id="email" name="email" placeholder="Seu email aqui">			    
+
+		    		<input type="submit" value="enviar">
+		 		 </form>
+
+			</div>
+		</div>
+
+		<div class="quinto" id="lugar">
+			<div class="mapa">
+				<div class="title">
+					Lugar
+				</div>
+
+				<div id="map">
+					<script type="text/javascript" src="sketch.js"></script>
+					<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBl_9VC9CxjaEcJehEd8jzdWiL5Z0M9KhQ&callback=initMap"></script>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="sexto" id="contato">
+			<div class="containercontato">
+				<div class="contato">Contato</div>
+				<div id="contact">@MOLHOSHOUJO</div>
+
+				<div id="media">
+					<a href="https://www.facebook.com/molhoshoujo/">
+						<img src="face.png" alt="facebook" width="50" height="50">
+					</a>
+					<a href="https://www.instagram.com/molhoshoujo/">
+						<img src="insta.png" alt="instagram" width="50" height="50">
+					</a>
+					<a href="https://twitter.com/molhoshoujo"><img src="twitter.png" alt="twitter" width="50" height="50"></a>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</body>
+</html>
